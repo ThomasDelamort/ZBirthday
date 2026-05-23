@@ -29,11 +29,11 @@ function animate() {
     if (Math.random() < 0.04) createFirework(Math.random()*window.innerWidth, Math.random()*window.innerHeight*0.6);
     requestAnimationFrame(animate);
 }
-// animate();
-// window.addEventListener('mousedown', e => createFirework(e.clientX, e.clientY));
-//
-//
-//
-// window.addEventListener('pointerdown', e => {
-//     createFirework(e.clientX, e.clientY);
-// });
+animate();
+window.addEventListener('mousedown', e => createFirework(e.clientX, e.clientY));
+
+
+
+window.addEventListener('pointerdown', e => {
+    createFirework(e.clientX, e.clientY);
+});
