@@ -120,7 +120,7 @@ h1 {
 .shooting_star:nth-child(2) { top: 40%; left: 30%; animation-delay: 1.5s; }
 
 @media screen and (max-width: 500px) {
-    h1 { font-size: 5rem; }
+    h1 { font-size: 4rem; }
     .age { font-size: 5rem; }
     .subtext {
         font-size: 1rem;
